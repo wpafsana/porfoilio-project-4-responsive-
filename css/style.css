@@ -84,6 +84,64 @@ padding-bottom: 20px;
    margin-top:50px ;
 }
 /* feature part */
+.feature{
+    display: flex;
+   margin-bottom: 100px;
+    gap: 130px;
+}
+.feature-content{
+    max-width: 400px;
+}
+.feature-title{
+    color: #131313;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+   border-left: 5px solid #FF900E;
+   padding-left: 20px;
+}
+.card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding:20px;
+    margin-bottom: 20px;
+}
+.card h4{
+    color: #131313;
+font-size: 20px;
+font-weight: 600;
+}
+.feature-img img{
+ width: 120%;
+ height: 700px;
+
+}
+.ten-year-badge{
+    border-radius: 8px;
+        background: #FF900E;
+        color: #FFF;
+        text-align: center;
+        padding: 25px 30px;
+        width: 342px;
+        height: 180px;
+        position: relative;
+        bottom: 85px;
+        right: 80px;
+}
+.ten-year-badge h2{
+font-size: 45px;
+font-weight: 700;
+line-height: 70px;
+}
+ .ten-year-badge{
+font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+}
+
+
+/* team part */
 .team-container{
     display: flex;
     justify-content: space-between;
@@ -131,7 +189,7 @@ padding-bottom: 20px;
   align-items: center;
     
 }
-.card{
+.card1{
     text-align: center;
     padding-top: 20px;
     border-radius: 8px;
@@ -140,10 +198,10 @@ width: 190px;
 padding: 20px;
 }
 
-.card img{
+.card1 img{
   width: 45px;
 }
-.card h1{
+.card1 h1{
     color: #424242;
 font-size: 40px;
 font-weight: 600;
@@ -182,10 +240,6 @@ footer{
     padding:50px 0 30px 0 ;
 }
 
-
-
-
-
 /* responsive style */
 /* small device */
 @media screen and (max-width:576px) {
@@ -195,15 +249,16 @@ footer{
     .sponspors,
     .sponspors-title,
     .team-container,
+    .feature-img,
     .fact-card-content
    {
        padding:20px;
 
     }
     .right-content{
-        padding: 20px;
+      margin-left: 60px;
+    
     }
-   
     .fact-card-content,
     .sponspors-img{
        align-self: center;
@@ -211,6 +266,7 @@ footer{
     
     nav,
     .team-container,
+    .feature,
     .left-img-container,
     .fact-card-content,
     .sponspors-img
@@ -235,11 +291,12 @@ footer{
      }
      nav,
      .team-container,
-     .sponspors-img
+     .sponspors-img,
+     .feature
      {
        flex-direction: column;   
      }
-    .card{
+    .card1{
         gap:10px;
     }
      .sponspors-img{
@@ -255,7 +312,8 @@ footer{
        padding:20px;
 
     }
-    .sponspors-img{
+    .sponspors-img,
+    .feature{
         align-items: center;
     }
 }
