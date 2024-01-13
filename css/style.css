@@ -32,7 +32,11 @@ font-weight: 400;
 line-height: 20px;
 padding-bottom: 20px;
 }
+
+
 /* header style */
+
+
 header{
     background: rgba(255, 144, 14, 0.10);
    max-width: 1520px;
@@ -65,7 +69,10 @@ nav li{
 nav li a{
     text-decoration: none;
 }
+
 /* banner part */
+
+
 .banner-title{
    max-width: 640px; 
    margin:0 auto;
@@ -83,7 +90,11 @@ padding-bottom: 20px;
    width: 100%;
    margin-top:50px ;
 }
+
+
 /* feature part */
+
+
 .feature{
     display: flex;
    margin-bottom: 100px;
@@ -142,6 +153,8 @@ line-height: 40px;
 
 
 /* team part */
+
+
 .team-container{
     display: flex;
     justify-content: space-between;
@@ -173,7 +186,10 @@ line-height: 40px;
  #feature{
     color:#FF900E;
 }
+
  /* fact style  */
+
+
  .fact-title h3{
     color: #3f3e3e;
 font-size: 45px;
@@ -207,28 +223,35 @@ font-size: 40px;
 font-weight: 600;
 padding-top: 15px;
 }
+
 /* sponspors start */
-.sponspors{
+
+
+.sponspors {
     padding: 100px 0;
 }
-.sponspors-title{
+
+.sponspors-title {
     text-align: center;
 }
-.sponspors-title h1{
-    color:#363535;
+
+.sponspors-title h1 {
+    color: #363535;
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 20px;
 }
-.sponspors-img{
-  display: flex;
-  justify-content: space-evenly;
-  gap: 40px;
-  margin-top: 50px ;
- align-items: center;
+
+.sponspors-img {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
 }
-.sponspors-img img{
-width:120px;
+
+.sponspors-img img {
+    width: 120px;
 }
 /* footer start */
 footer{
@@ -263,7 +286,7 @@ footer{
     .sponspors-img{
        align-self: center;
     }
-    
+
     nav,
     .team-container,
     .feature,
@@ -285,37 +308,33 @@ footer{
     }
 }
 /* tablet and media device */
-@media screen and (min-width:576px) and (max-width:960px){
-    header{
-        padding:50px;  
-     }
-     nav,
-     .team-container,
-     .sponspors-img,
-     .feature
-     {
-       flex-direction: column;   
-     }
-    .card1{
-        gap:10px;
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 50px;
     }
-     .sponspors-img{
-        gap:50px;
+    nav,
+    .team-container,
+    .sponspors-img,
+    .feature {
+        flex-direction: column;
+    }
+    .card1 {
+        gap: 10px;
+    }
+    .sponspors-img {
+        gap: 50px;
     }
     main,
     .team-container,
     .fact-card-content,
     .sponspors,
     .sponspors-title,
-    footer
-   {
-       padding:20px;
-
+    footer {
+        padding: 20px;
     }
     .sponspors-img,
-    .feature{
+    .feature {
         align-items: center;
     }
 }
-
 
